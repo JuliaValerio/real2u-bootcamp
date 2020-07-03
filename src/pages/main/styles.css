@@ -1,0 +1,137 @@
+.section-search{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #search-bar{
+    max-width: 100%;
+  }
+  #search-bar input{
+    margin-top: 20px;
+    width: 258px;
+    border: 3px solid rgba(27, 26, 26, 0.89);
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(156, 156, 156);
+  }
+  .search-btn{
+    margin-left: -9px;
+    margin-top: 20px;
+    position: absolute;  
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgba(129, 145, 153, 0.89);
+    background: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .search-btn i{
+    font-size: 20px;
+  }
+
+  .search-btn i:hover{
+    font-size: 25px;
+  }
+
+  @media only screen and (max-width: 650px) {
+    .App {
+      overflow: hidden;
+      text-align: center;
+    }
+    div.section-search {
+      margin-right: 10%;
+    }
+
+    div#search-bar {
+     width: 100%;
+     height: 100px;
+    }
+  }
+.users-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+  }
+  
+  .users-list article {
+    background: #fff;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .users-list div {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  .users-list div strong{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+  .users-list img {
+      width: 25%;
+      border-radius: 10%;
+  }
+  
+  .users-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+  }
+  
+  .users-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #2f8dda;
+    background: none;
+    margin-top: 10px;
+    color: #2f87da;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s; 
+  }
+  
+  .users-list article a:hover {
+    background: #228cadb0;
+    color: #fff;
+  }
+  
+  .users-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .users-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #141212;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .users-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+  };
+  
